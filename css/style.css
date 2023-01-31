@@ -31,14 +31,20 @@ img {
     }
 
 .js-playBtn{
-    font-size: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
 }
 .js-stopBtn{
-    font-size: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
 }
 .js-audioNextBtn{
     background: transparent;
     padding:20px;
+    font-size: 30px;
     color: whitesmoke;
     display:inline-block;
     
@@ -108,5 +114,22 @@ position: absolute;
 .js-audioNextBtn,
 button {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+#weather{
+    width: 450px;
+    
+    color:white;
+    font-size:30px;
+    position: absolute;
+    right:50px;
+    top:30px;
+    display:flex;   
+    justify-content:space-between;
+
+}
+button{
+    outline: none;
+    border:none;
 }

@@ -27,7 +27,7 @@ function loadAudio() {
 }
 
 function handleNextButtonClick() { 
-
+           
   if (currentAudio < MUSIC_COUNT) {
     currentAudio += 1;
   } else {
